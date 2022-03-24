@@ -1,6 +1,6 @@
 # React COVID Tracker
 
-Stay up to date with this awesome Covid-19 News & Statistics React App.
+Stay up to date with this awesome Covid-19 News & Statistics React App.  
 In this app you will be able to:
 
 - Check Covid-19 statistics of ANY country you select
