@@ -1,10 +1,16 @@
-# <i class="fa-solid fa-virus-covid"></i>React COVID Tracker
+# React COVID Tracker
 
-Brief Description of the project
+Stay up to date with this awesome Covid-19 News & Statistics React App.
+In this app you will be able to:
+
+- Check Covid-19 statistics of ANY country you select
+- Visualize these statistics in our map
+- Read charts and linegraphs for better data interpretation
+- Read the latest articles on this topic
 
 Live Demo [here!](https://github.com/)
 
-### :wrench: Built with
+### Built with
 
 - [React](http://reactjs.org/)
 - [COVID API](https://disease.sh/)
