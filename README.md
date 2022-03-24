@@ -1,4 +1,4 @@
-# React COVID Tracker
+# <i class="fa-solid fa-virus-covid"></i>React COVID Tracker
 
 Brief Description of the project
 
