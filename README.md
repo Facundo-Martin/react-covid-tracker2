@@ -1,4 +1,4 @@
-# React COVID Tracker <img align="left" alt="Covid" width="50px" src="https://www.svgrepo.com/show/376851/covid.svg" style="padding-right:10px; color:green;" />
+# React COVID Tracker <img align="left" alt="Covid" width="50px" src="https://www.svgrepo.com/show/376851/covid.svg" style="padding-right:10px; fill:green;" />
 
 Stay up to date with this awesome Covid-19 News & Statistics React App.  
 In this app you will be able to:
