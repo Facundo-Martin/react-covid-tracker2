@@ -9,6 +9,7 @@ In this app you will be able to:
 - Read the latest articles on this topic
 
 Live Demo [here!](https://react-covid-tracker2-db6b3.web.app/)
+![preview img](/preview.png)
 
 ### Built with
 
