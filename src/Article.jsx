@@ -3,11 +3,22 @@ import "./Article.css";
 import { GrFormNextLink } from "react-icons/gr";
 
 const Article = ({ image, title, author, date, summary, link }) => {
+  // Formatting dates
+  let newDate = new Date();
+  let formattedDate = newDate.toUTCString().slice(0, 16);
+
   return (
     <div className="app__article">
       <div className="app__article-image">
         <a href={link} target="_blank">
-          <img src={image} alt="news image" />
+          {image ? (
+            <img src={image} alt="news image" />
+          ) : (
+            <img
+              src="https://i.inews.co.uk/content/uploads/2022/05/SEI_98342569.jpg"
+              alt="alternative image"
+            />
+          )}
         </a>
       </div>
 
@@ -18,7 +29,7 @@ const Article = ({ image, title, author, date, summary, link }) => {
         <div className="app__article-subheading">
           <p>{author?.length <= 70 ? author : "Unknown Author"}</p>
           <div>
-            <i>{date}</i>
+            <i>{formattedDate}</i>
           </div>
         </div>
         <div className="app__article-summary">
