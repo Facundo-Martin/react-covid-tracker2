@@ -4,7 +4,7 @@ import { GrFormNextLink } from "react-icons/gr";
 
 const Article = ({ image, title, author, date, summary, link }) => {
   // Formatting dates
-  let newDate = new Date();
+  let newDate = new Date(date);
   let formattedDate = newDate.toUTCString().slice(0, 16);
 
   return (
